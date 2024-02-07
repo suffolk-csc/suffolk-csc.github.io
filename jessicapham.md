@@ -1,0 +1,5 @@
+Name: Jessica (Jess) Pham
+Major: Computer Science
+Favorite class: ENG-160 School Stories
+Favorite professor: Anthony G.
+Avg free-sat activity: playing through the Yakuza series rt now (on Yakuza 3), or if friends are free, phasmophobia or risk of rain 2
