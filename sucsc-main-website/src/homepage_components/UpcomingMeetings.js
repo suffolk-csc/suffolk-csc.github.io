@@ -5,7 +5,7 @@ function UpcomingMeetings() {
   return (
     <section className="bg-primary text-white py-5">
       <div className="container">
-        <h2>Latest Meeting Highlights</h2>
+        <h2>Upcoming Meetings</h2>
         <p>Last meeting we covered XYZ topics, and we had a great turnout! Here's what you need to know...</p>
         <div className="card bg-light my-3">
           <div className="card-body">
