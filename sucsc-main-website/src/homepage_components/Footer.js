@@ -8,7 +8,7 @@ function Footer() {
         <img src="/path-to-your-logo.png" alt="Club Logo" className="mb-3" />
         <address>
           Suffolk University Computer Science Club<br />
-          123 College Street<br />
+          73 tremont street <br />
           Boston, MA 02108
         </address>
         <p>Email: contact@csclub.suffolk.edu</p>
