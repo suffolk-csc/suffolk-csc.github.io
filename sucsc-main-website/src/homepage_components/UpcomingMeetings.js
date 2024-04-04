@@ -1,17 +1,17 @@
-// src/components/MeetingInfo.js
 import React from 'react';
-//import './Styles_Homepage/UpcomingMeetings.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function UpcomingMeetings() {
   return (
-    <section className="Upcoming-Meetings">
-      {/* Team Member #6: Add a big header for the Recent Meeting Information */}
-      <h2>Latest Meeting Highlights</h2>
-      {/* Here you can add small text sections with meeting summaries, outcomes, etc. */}
-      <p>Last meeting we covered XYZ topics, and we had a great turnout! Here's what you need to know...</p>
-      {/* Placeholder for cool image #1 related to the recent meeting */}
-      <div className="image-placeholder">
-        <p>Cool Image #1</p>
+    <section className="bg-primary text-white py-5">
+      <div className="container">
+        <h2>Latest Meeting Highlights</h2>
+        <p>Last meeting we covered XYZ topics, and we had a great turnout! Here's what you need to know...</p>
+        <div className="card bg-light my-3">
+          <div className="card-body">
+            <p className="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
       </div>
     </section>
   );

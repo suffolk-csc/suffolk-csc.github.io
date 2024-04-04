@@ -1,14 +1,27 @@
-// src/components/Header.js
 import React from 'react';
-import './Styles_Homepage/Header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
   return (
-    <header className="header">
-      {/* Team Member #1: Add the logo image here */}
-      {/* Team Member #2: Create the navigation bar here */}
-      {/* The navigation should include links to: Home, About Us, Gallery, Calendar, Contact Us */}
-      {/* Use <a> tags for now, these will be replaced with <Link> from react-router-dom later */}
+    <header className="bg-dark text-white py-3">
+      <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-dark">
+          {/* Team Member #1: Add the logo image here */}
+          <a className="navbar-brand" href="/">Suffolk CSC</a>
+          {/* Team Member #2: Create the navigation bar here */}
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="/">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about">About Us</a>
+              </li>
+              {/* Add other navigation links */}
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
   );
 }

@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './homepage_components/Header';
 import WelcomeSection from './homepage_components/WelcomeSection';
 import UpcomingMeetings from './homepage_components/UpcomingMeetings';
