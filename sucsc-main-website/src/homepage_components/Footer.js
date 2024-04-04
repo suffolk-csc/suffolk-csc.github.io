@@ -15,8 +15,8 @@ function Footer() {
         {/* Social media icons */}
         <div className="social-media-links">
           {/* Placeholder icons */}
-          <span>Instagram Icon</span>
-          <span>Discord Icon</span>
+          <span><img src="/photos/transparent-instagram-logo.png" alt="Instagram logo image" className="mb-4"/></span>
+          <span><img src="/photos/Discord-Logo.png" alt="Discord logo image" className="mb-5"/></span>
           {/* More icons as needed */}
         </div>
       </div>
