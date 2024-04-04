@@ -1,13 +1,25 @@
+// src/App.js
 import React from 'react';
+import Header from './homepage_components/Header';
+import WelcomeSection from './homepage_components/WelcomeSection';
+import UpcomingMeetings from './homepage_components/UpcomingMeetings';
+import PreviousMeetings from './homepage_components/PreviousMeetings';
+import Footer from './homepage_components/Footer';
 import './App.css';
-// Import your components after you've created them
-// import Header from './components/Header';
-// ... other imports
 
 function App() {
   return (
     <div className="App">
-      this is a test pls work
+      <Header />
+        <div>
+          test
+        </div>
+      <main>
+        <WelcomeSection />
+        <UpcomingMeetings />
+        <PreviousMeetings />
+      </main>
+      <Footer />
     </div>
   );
 }
