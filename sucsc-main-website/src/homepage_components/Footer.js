@@ -16,7 +16,7 @@ function Footer() {
         {/* Social media icons */}
         <div className="social-media-links">
           {/* Instagram icon using Bootstrap Icons */}
-          <a href="https://instagram.com/your-username" className="text-white mx-2">
+          <a href="https://www.instagram.com/suffolkcsclub/" className="text-white mx-2">
             <i className="bi bi-instagram"></i>
           </a>
           {/* Other social media icons */}
