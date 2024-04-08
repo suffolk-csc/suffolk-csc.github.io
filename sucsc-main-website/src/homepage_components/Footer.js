@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; 
+import 'bootstrap-icons/font/bootstrap-icons.css'; //import bootstrap icons
 
 function Footer() {
   return (
@@ -20,8 +20,8 @@ function Footer() {
             <i className="bi bi-instagram"></i>
           </a>
           {/* Other social media icons */}
-          <a href="https://discord.com/your-invite-link" className="text-white mx-2">
-            <img src="/photos/Discord-Logo.png" alt="Discord logo" className="mb-2" style={{ height: '1em' }} />
+          <a href="https://discord.gg/GexwzVy7tC" className="text-white mx-2">
+            <i class="bi bi-discord"></i>
           </a>
         </div>
       </div>
