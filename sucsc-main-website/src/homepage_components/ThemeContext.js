@@ -11,12 +11,8 @@ export function useTheme() {
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState('light'); // Default theme is light
 
-  const toggleTheme = () => {
-    setTheme((currentTheme) => (currentTheme === 'light' ? 'dark' : 'light'));
-  };
-
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );
