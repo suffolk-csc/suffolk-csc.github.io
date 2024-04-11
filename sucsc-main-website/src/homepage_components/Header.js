@@ -6,7 +6,7 @@ function Header() {
     <header className="bg-dark text-white py-3">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
-          <span><img src="/suffolklogo.png" alt="Club Logo" className="nav-img"/></span>
+          <span><img src="/photos/suffolklogo.png" alt="Club Logo" className="mb-3 resize"/></span>
           {/* Team Member #1: Add the logo image here */}
           <a className="navbar-brand" href="/">Suffolk CSC</a>
           {/* Team Member #2: Create the navigation bar here */}
