@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="bg-dark text-center text-white py-3">
       <div className="container">
-        <img src="/suffolklogo.png" alt="Club Logo" className="mb-3"/>
+        <img src="public/photos/suffolklogo.png" alt="Club Logo" className="mb-3"/>
         <address>
           Suffolk University Computer Science Club<br />
           73 Tremont Street <p>5th Floor 5060</p><br />
