@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; //import bootstrap icons
+import './image.css';
 
 function Footer() {
   return (
     <footer className="bg-dark text-center text-white py-3">
       <div className="container">
-        <img src="/suffolklogo.png" alt="Club Logo" className="mb-3"/>
+        <img src="/photos/suffolklogo.png" alt="Club Logo" className="mb-3 resize"/>
         <address>
           Suffolk University Computer Science Club<br />
           73 Tremont Street <p>5th Floor 5060</p><br />
