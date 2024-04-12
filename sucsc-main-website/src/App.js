@@ -8,14 +8,27 @@ import PreviousMeetings from './homepage_components/PreviousMeetings';
 import Footer from './homepage_components/Footer';
 import { ThemeProvider } from './homepage_components/ThemeContext';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Calender from './pages/Calender';
+import Gallery from './pages/Gallery';
+
 
 function App() {
   return (
+    <Router>
  
     <div className="App">
       <Header />
       <main>
       <ThemeProvider>
+        <Routes>
+          <Route path="/about" element={<About />} /> 
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/calender" element={<Calender />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
         <WelcomeSection />
         <UpcomingMeetings />
         <PreviousMeetings />
@@ -23,6 +36,8 @@ function App() {
       </main>
       <Footer />
     </div>
+
+    </Router>
 
   );
 }

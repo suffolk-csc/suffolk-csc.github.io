@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -13,19 +14,19 @@ function Header() {
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/home">Home</a>
+                <Link className="nav-link" to="/home">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">About Us</a>
+                <Link className="nav-link" to="/about">About Us</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/gallery">Gallery</a>
+                <Link className="nav-link" to="/gallery">Gallery</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/calender">Calender</a>
+                <Link className="nav-link" to="/calender">Calender</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact Us!</a>
+                <Link className="nav-link" to="/contact">Contact Us!</Link>
               </li>
               {/* Add other navigation links */}
             </ul>
